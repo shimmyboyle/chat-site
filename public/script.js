@@ -36,7 +36,7 @@ socket.on('message_broadcast', (data) => {
     scrollToBottom();
 });
 
-// Display message in chat
+// Display message in chat (always add to bottom)
 function displayMessage(message) {
     const messageElement = document.createElement('div');
     messageElement.className = 'message';
